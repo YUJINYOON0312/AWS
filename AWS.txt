@@ -1,0 +1,16 @@
+CodeDeploy
+1. github(gitactions) --> S3 --> EC2
+2. IAM: 권한설정
+   사용자(my-gitaction-access-user): 권한부여
+
+
+ln -s /usr/share/zoneinfo/Asia/Seoul /etc/localtime
+
+https://aws-codedeploy-ap-northeast-2.s3.ap-northeast-2.amazonaws.com/latest/install
+
+이름: my-gitaction-access-user
+액세스 키 id: AKIATI673MPQ2YYR5CEZ
+액세스 키 password: t2hKH+d9lBFzv3bqIwU6Xic81bp+YPUamY5vMDhj
+region: ap-northeast-2
+s3 bucket name: gitactions-to-s3-bucket1997
+
